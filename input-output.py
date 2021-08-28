@@ -1,4 +1,6 @@
 # sum of two numbers and takes input from user
+
+# input
 a = input('Enter a =')
 b = input('Enter b =')
 
