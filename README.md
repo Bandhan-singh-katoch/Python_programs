@@ -1,3 +1,3 @@
 # Python_programs
 
-In this repository i will adding my python programs
+In this repo i have my python programs
