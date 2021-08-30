@@ -15,3 +15,7 @@ print(c)
 # accessing constants from constant.py file
 print(constant.PI)
 print(constant.NAME)
+
+
+# Literals: Literal is a raw data given to the variables to constant
+
