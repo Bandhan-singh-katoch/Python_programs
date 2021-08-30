@@ -18,4 +18,13 @@ print(constant.NAME)
 
 
 # Literals: Literal is a raw data given to the variables to constant
+# Boolean literal
+x = (1 == True)
+y = (1 == False)
+a = 1 + True
+b = 4 + False
 
+print(x)
+print(y)
+print(a)
+print(b)
