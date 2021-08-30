@@ -28,3 +28,10 @@ print(x)
 print(y)
 print(a)
 print(b)
+
+# Special literal
+# None : used to specify that the field has not been created
+btech = None
+course = "cse"
+if course == "cse":
+    print(btech)
