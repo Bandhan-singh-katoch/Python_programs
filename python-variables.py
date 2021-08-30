@@ -35,3 +35,17 @@ btech = None
 course = "cse"
 if course == "cse":
     print(btech)
+
+
+# Literals collection
+# List literals, Tuple literals, Dict literals, and Set literals
+
+fruits = ["apple", "banana", "mango"]   #list
+number = (1, 2, 3)          # tuple
+dict = {'a': 'apple', 'b': 'bal'}  # dictionary
+vowels = {'a', 'e', 'i', 'o', 'u'}
+
+print(fruits)
+print(number)
+print(dict)
+print(vowels)
