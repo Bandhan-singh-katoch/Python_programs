@@ -14,7 +14,7 @@ print(a, "is complex number: ", isinstance(a, complex))
 
 
 # python list: same as array but can be of different type
-a = [2, 4, 5, 6, 33, 3, 8]
+a = [2, 4.0, 5, 6, 33, 3.0, "string"]
 print(a[2])
 print(a[1:4])
 print(a[3:])
@@ -22,5 +22,9 @@ print(a[3:])
 a[1] = 44
 print(a)
 
-# tuples:
+# tuples: same as list but are immutable means the value can't be changed
+a = (5, 9.0, "bandhan")
+print(a)
+# a[0] = 6    # uncomment it, then it will show error
+
 
