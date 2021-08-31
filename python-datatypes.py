@@ -27,4 +27,10 @@ a = (5, 9.0, "bandhan")
 print(a)
 # a[0] = 6    # uncomment it, then it will show error
 
+# strings
+s = "i am string"
+print(s)
+s = """i am multi
+line string"""
+print(s)
 
