@@ -34,3 +34,9 @@ s = """i am multi
 line string"""
 print(s)
 
+# sets: unordered collection of unique elements
+# sets are unordered collection of elements so indexing has no meaning
+# and the slicing operator [] does not work
+a = {1, 3, 2, 9, 4, 1}
+print(a)
+
