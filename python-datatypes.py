@@ -40,3 +40,8 @@ print(s)
 a = {1, 3, 2, 9, 4, 1}
 print(a)
 
+
+# dictionary: unordered collection of key:value pair
+dict = {2:"Bandhan", 'key':"Singh"}
+print(dict[2])
+print(dict['key'])
