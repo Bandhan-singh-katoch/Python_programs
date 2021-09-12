@@ -19,3 +19,11 @@ print("a and b = ",a and b)
 print("a or b = ",a or b)
 print("not a =", not a)
 
+# Bitwise operator : Bitwise operators acts on operands as if they were strings of binary digits.
+m = 10       # 1010
+n = 4        # 0100
+print(m&n)   # 0  Bitwise and
+print(m|n)   # 14 Bitwise or
+print(~m)    # -(1010+1) Bitwise not operator: returns one's compliment of the number
+print(m^n)   # XOR operator
+
