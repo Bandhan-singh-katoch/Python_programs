@@ -16,3 +16,10 @@ def oddeven(num):
 
 oddeven(3)
 oddeven(8)
+
+# ----------------- default arguments --------------------
+def printnum(x, y = 4):
+    print("x = ", x)
+    print("y = ", y)
+
+printnum(2)
