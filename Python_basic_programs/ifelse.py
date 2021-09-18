@@ -28,3 +28,6 @@ elif i == 5:
 else:
     print("I am less than 5")
 
+# ---------------- shorthand if statement ------------------
+# shorthand if statement is used whenever we have only one statement in the if block. The statement can be put in the same line
+if i<6: print("{} is less than 6".format(i))
