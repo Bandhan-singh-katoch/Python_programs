@@ -13,3 +13,9 @@ if i>4:
 else:
     print("i am lesser than 4")
 
+# ---------------- nested if statement ------------------
+i = 5
+if i>3:
+    if i<9:
+        print("i am greater than 2 and less than 9")
+else: print("i am not greater than 2 and less than 9")
