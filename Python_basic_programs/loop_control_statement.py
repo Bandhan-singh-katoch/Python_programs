@@ -8,3 +8,11 @@ for letter in "Bandhan Singh":
     if letter == 'n':     # if letter == a then it will skip rest of the code and continue with the next iteration
         continue
     print(letter)
+print("\n")
+# ----------------- Break statement ------------------------
+# break statement is used to terminate the loop containing it. Control of the program flows to the statement immediately after the loop
+
+for letter in "Bandhan":
+    if letter == 'd':
+        break
+    print(letter)
