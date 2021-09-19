@@ -36,6 +36,13 @@ l = [90,12,35,63]
 for i in range(len(l)):
     print(l[i],end=" ")
 
+# sum of first 5 numbers
+print()
+s=0
+for i in range(1,5):
+    s += i
+print("Sum = ",s)
+
 
 
 
