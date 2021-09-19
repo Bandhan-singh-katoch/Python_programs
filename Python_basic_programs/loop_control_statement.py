@@ -23,3 +23,20 @@ for alpha in "alphabets":
     pass                                   # pass is used whenever we don't have anything to write.
                                            # If we leave the block blank then it will show error
 print("Last element of alpha is = ",alpha)
+
+# ----------------- range() function -------------------------
+print()
+# printing a number
+for i in range(10):
+    print(i,end=" ")
+
+# using for iteration
+print()
+l = [90,12,35,63]
+for i in range(len(l)):
+    print(l[i],end=" ")
+
+
+
+
+
