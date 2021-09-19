@@ -16,3 +16,10 @@ for letter in "Bandhan":
     if letter == 'd':
         break
     print(letter)
+
+# ----------------- Pass statement -------------------------
+# pass statement is used to write the empty loops, functions, classes.
+for alpha in "alphabets":
+    pass                                   # pass is used whenever we don't have anything to write.
+                                           # If we leave the block blank then it will show error
+print("Last element of alpha is = ",alpha)
