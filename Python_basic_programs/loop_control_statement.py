@@ -44,6 +44,18 @@ for i in range(1,5):
 print("Sum = ",s)
 
 
+# ------------------- for loop with else -------------------
+# the else statement just after the loop is executed only if there is no break statement.
+for i in range(1,4):
+    print(i)
+else: print("No break")    # executed as there is no break
+
+for i in range(6,9):
+    print(i)
+    break
+else:print("with break")      # Not executed as we have break
+
+
 
 
 
