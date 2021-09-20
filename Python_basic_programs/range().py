@@ -19,8 +19,13 @@ print(l)
 start = 2
 stop = 10
 step = 2
-print(list(range(start,stop,step)))
+print(list(range(start,stop,step)))       # [2, 4, 6, 8]
 
+# ------------------- range() with negative steps -----------------------
+start = 2
+stop = -10
+step = -2
+print(list(range(start,stop,step)))      # [2, 0, -2, -4, -6, -8]
 
 
 
