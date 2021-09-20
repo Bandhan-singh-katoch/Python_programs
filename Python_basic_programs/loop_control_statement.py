@@ -24,7 +24,7 @@ for alpha in "alphabets":
                                            # If we leave the block blank then it will show error
 print("Last element of alpha is = ",alpha)
 
-# ----------------- range() function -------------------------
+# ----------------- range() constructor or method -------------------------
 print()
 # printing a number
 for i in range(10):
