@@ -16,3 +16,11 @@ print()
 # ------------------------- single statement while loop ----------------
 count = 0
 while count < 4: count+=1; print(count, end=" ")       # 1 2 3 4  similar to 1st program at the top
+
+
+# ------------------------ sentinel controlled statement ---------------
+# sentinel value is a value that is used to terminate the loop whenever the the user enters it.
+print()
+a = int(input("Enter a number (-1 to quit) = "))
+while a != -1:
+    a = int(input("Enter a number (-1 to quit) = "))
