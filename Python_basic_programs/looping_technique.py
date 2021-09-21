@@ -10,6 +10,12 @@ questions = ['name', 'branch', 'college']
 answers = ['Bandhan', 'btech', 'GGI']
 
 for question, answer in zip(questions,answers):
-    print("What is your {} ? {}".format(question,answer))
+    print("What is your {} ? {}".format(question,answer))    # What is your name ? Bandhan ......
+
+# using items() to loop through the dictionary printing the dictionary key value-pair sequentially
+
+d = {"a":"Bandhan", "b":"Singh", "c":"Katoch"}
+for i,j in d.items():
+    print(i,j)
 
 
