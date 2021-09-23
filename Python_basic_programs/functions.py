@@ -33,5 +33,9 @@ student(name= "Bandhan", branch= "CSE")
 student(branch="Civil", name="Aquib")
 
 # ============== variable length arguments ( *args and **kwargs ) =========
+def funarg(*args):
+    print(args[3])
+
+funarg("Aryan", "Bandhan", "Charan", "Don")
 
 
