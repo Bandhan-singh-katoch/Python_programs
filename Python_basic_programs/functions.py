@@ -59,5 +59,14 @@ def myDetails(**kwargs):
         print(key," = ",value)
 
 myDetails(Name="Bandhan",Rollno="1906066",Branch="Cse")
+print()
+
+# another example
+def mykwargs(args, **kwargs):
+    print(args)
+    for i,j in kwargs.items():
+        print("%s == %s"%(i,j))
+
+mykwargs("Hlo",name="Karan",ask="How are you?")
 
 
