@@ -51,13 +51,13 @@ def myFun(arg1, *argv):
         print(i,end=" ")
 
 myFun("Hello","I","am","Bandhan","Singh")
-
+print()
 
 # **kwargs: used to pass a keyworded variable length argument list.
-def myDetails(*args):
-    for key,value in args:
-        print()
+def myDetails(**kwargs):
+    for key,value in kwargs.items():
+        print(key," = ",value)
 
-myDetails(name="Bandhan",Rollno="1906066",Branch="Cse")
+myDetails(Name="Bandhan",Rollno="1906066",Branch="Cse")
 
 
