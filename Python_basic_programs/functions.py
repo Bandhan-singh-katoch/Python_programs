@@ -33,9 +33,24 @@ student(name= "Bandhan", branch= "CSE")
 student(branch="Civil", name="Aquib")
 
 # ============== variable length arguments ( *args and **kwargs ) =========
+#  *args : It allows us to pass the variable number of non keyword arguments to a function.
 def funarg(*args):
-    print(args[3])
+    for item in args:
+        print(item,end=" ")
 
-funarg("Aryan", "Bandhan", "Charan", "Don")
+name_list = ["Aryan", "Bandhan", "Charan", "Don"]
+funarg(*name_list)
+
+# Another example:
+print()
+def myFun(arg1, *argv):
+    print("arg1 = ",arg1)
+
+    print("*argv = ")
+    for i in argv:
+        print(i,end=" ")
+
+myFun("Hello","I","am","Bandhan","Singh")
+
 
 
