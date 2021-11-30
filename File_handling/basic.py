@@ -22,3 +22,10 @@ file = open("geeks.txt",'r')
 print(file.read())
 
 # Output: I am in write mode
+
+# --------- working of append() mode ---------------------
+f = open("geeks.txt","a")
+f.write(" and i am geeks.txt wala file")
+
+f = open("geeks.txt","r")
+print(f.read())
