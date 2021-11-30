@@ -4,7 +4,7 @@ for i in file:
 
 # Output: I am bandhan singh from jammu
 
-# Working of read() mode
+# --------------Working of read() mode ----------------------
 f = open("geek.txt","r")
 print(f.read())
 # Output: I am bandhan singh from jammu
@@ -12,3 +12,13 @@ print(f.read())
 f = open("geek.txt","r")
 print(f.read(4))
 # Output: I am
+
+# ------------creating a file using write() mode -----------------
+file = open("geeks.txt","w")
+file.write("I am in write mode")
+file.close()
+
+file = open("geeks.txt",'r')
+print(file.read())
+
+# Output: I am in write mode
