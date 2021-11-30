@@ -39,3 +39,10 @@ with open("geeks.txt") as f1:
 # using "with" with write
 with open("geeks.txt","w") as f2:
     f2.write("I am going to ima")
+
+# split() using file handling
+with open("geek.txt","r") as file:
+    data = file.readlines()
+    for line in data:
+        word = line.split()
+        print(word)
