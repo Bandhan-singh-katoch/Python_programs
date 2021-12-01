@@ -19,8 +19,8 @@ file.writelines(L)
 file.close()
 
 print("Data in file :- ")
-file = open("read.txt","r")
-file.seek(0)
+file = open("read.txt","rt")
+file.seek(1)
 print(file.read())
 file.close()
 
