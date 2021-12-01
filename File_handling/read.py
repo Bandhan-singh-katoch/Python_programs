@@ -11,3 +11,16 @@ print(file.readline())
 file = open("read.txt","r")
 print(file.readlines())
 
+# write and read
+file = open("read.txt","w")
+L = ["i am bandhan singh \nI am from Jammu \nI am doing Cse"]
+file.write("Hlo\n")
+file.writelines(L)
+file.close()
+
+print("Data in file :- ")
+file = open("read.txt","r")
+file.seek(0)
+print(file.read())
+file.close()
+

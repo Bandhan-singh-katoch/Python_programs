@@ -1,3 +1,4 @@
-readline() : Reads a line of the file and returns in form of a string.
-For specified n, reads at most n bytes.
-However, does not reads more than one line, even if n exceeds the length of the line.
+Hlo
+i am bandhan singh 
+I am from Jammu 
+I am doing Cse
