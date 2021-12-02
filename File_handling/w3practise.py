@@ -9,5 +9,5 @@ print(file.readline())
 print(file.readline())    # writing the readline() twice prints the second line also
 file.close()
 
-# --------- deleting of file ----------
+# --------- deleting of file ---------
 os.remove("w3file.txt")
