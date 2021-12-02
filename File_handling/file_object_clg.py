@@ -14,3 +14,11 @@ f.seek(10)
 print(f.tell())
 print(f.readline())
 f.close()
+
+#flush() : flush() method clears the internal buffer of the file. close() automatically
+# flushes the data but if u want to flush it before then it is used
+print("flush() starts here :")
+fileObj = open("read.txt","r")
+fileObj.flush()
+print(fileObj.read())
+fileObj.close()
