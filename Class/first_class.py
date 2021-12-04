@@ -9,3 +9,13 @@ class Student:
 stuobj = Student()
 print(stuobj.rollno)
 stuobj.details()
+
+#   __init__ method : __init__ method in python is similar to constructor in c++ or java
+class Customer:
+    def __init__(self,name):
+        self.name = name
+    def detail(self):
+        print(self.name)
+
+customerobj = Customer("Himanshu")
+customerobj.detail()
