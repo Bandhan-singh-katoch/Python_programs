@@ -36,3 +36,20 @@ class Student(Child):
 
 a = Student("Bandhan","123","GGI","3")
 a.display()
+
+# Making instance variable private : using double underscore
+class A(object):
+    def __init__(self):
+        self.__m = 34  # here m is private
+
+    def display(self):
+        print(self.__m)
+
+class B(A):
+    def __init__(self):
+        self.n = 434
+        A.__init__(self)
+
+obj = B()
+print(obj.n)
+#print(obj.m)  # uncomment it, then it will show error
