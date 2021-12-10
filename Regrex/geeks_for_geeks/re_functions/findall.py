@@ -6,3 +6,5 @@ str = """Hello my Number is 123456789 and
             my friend's number is 987654321"""
 match = re.findall('\d+',str)
 print(match)
+
+# output : ['123456789', '987654321']
